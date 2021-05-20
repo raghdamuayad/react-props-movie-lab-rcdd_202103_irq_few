@@ -16,7 +16,7 @@ export default class CardBack extends Component {
  		}
  		return <h4>No Rating Found</h4>;
     }
-
+<h3 className="title">{this.props.title}</h3>
   render() {
     return (
       <div className="card-back">
